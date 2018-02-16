@@ -6,4 +6,4 @@ if [[ ! -z "$PORT" ]]; then
 fi
 
 # Start smashing
-bundle exec smashing start $PORT_ARG
+smashing start $PORT_ARG
